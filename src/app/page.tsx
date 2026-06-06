@@ -5369,7 +5369,7 @@ function HomeContent() {
                   </div>
 
                   {/* ── Header: Avatars + VS ── */}
-                  <div className="flex-row sm:flex-row flex items-start justify-center gap-5 px-5 pt-1 pb-4 sm:pt-4">
+                  <div className="flex items-start justify-center gap-5 px-5 pt-1 pb-4 sm:pt-4">
                     <Link
                       href={`/dev/${comparePair[0].login}`}
                       className="flex flex-col items-center gap-1.5 group w-[110px]"
@@ -5399,7 +5399,7 @@ function HomeContent() {
                     </Link>
 
                     <span
-                      className="text-base shrink-0 xs:pt-4"
+                      className="text-base shrink-0 pt-4"
                       style={{ color: theme.accent }}
                     >
                       VS
